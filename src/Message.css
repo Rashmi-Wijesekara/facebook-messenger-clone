@@ -1,0 +1,29 @@
+/*  */
+
+/* show other users' messages on the left side */
+.message {
+	width: fit-content;
+	height: auto;
+	margin: 10px;
+	padding: 0px 5px;
+	max-width: 345px;
+}
+
+/* show my messages on the right side */
+.message__user {
+	margin-left: auto !important;
+}
+
+.message__username {
+	text-align: left;
+}
+
+/* my messages are blue color */
+.message__userCard {
+	background: #0695FF !important;
+}
+
+/* others' messages are white color */
+.message__guestCard {
+	background: whitesmoke !important;
+}
