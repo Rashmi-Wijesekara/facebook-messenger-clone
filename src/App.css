@@ -62,3 +62,8 @@
 .app__iconButton {
 	flex: 0;
 }
+
+/* container of all the messages display */
+.flip-move {
+	margin-bottom: 120px;
+}

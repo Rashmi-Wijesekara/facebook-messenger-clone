@@ -87,7 +87,7 @@ function App() {
 				</FormControl>
 			</form>
 
-			<FlipMove>
+			<FlipMove className="flip-move">
 				{/* messages */}
 				{messages.map(
 					// key will avoid re-rendering the whole list
